@@ -7,29 +7,23 @@
     <meta name="author" content="Monica C.">
     <title>Cameron Pittman: Portfolio</title>
 
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <!--<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
-    
-    <!-- Copy "style.css" inline so reference to style.css can be removed -->
-    <!-- <link href="css/style.css" rel="stylesheet"> -->  
         <style>
-   <!-- //https://stackoverflow.com/questions/8749225/loading-an-external-font-via-inline-css-->
-    <!--//Loading an external font-->
-   <!-- //Used only "/* latin*/" from http://fonts.googleapis.com/css?family=Open+Sans:400,700, since Google mentions that "Latin" is supported by all fonts -->
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-       @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+          <!-- Loading an external font via inline css-->
+          @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }     
+        <!-- Copy "style.css" inline and removed reference to style.css -->
         html {
           font-size: 100%;
           overflow-y: scroll;
@@ -79,12 +73,7 @@
           body { font-size: 12px;}
           header p { padding-left: 4.5em;}
         }
-
-    
     </style>
-    
-    <link href="css/print.css" rel="stylesheet">
-
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -95,10 +84,8 @@
     </script>
     <script src="http://www.google-analytics.com/analytics.js" async></script>
     <script async src="js/perfmatters.js"></script>
-    
-  
+     <link href="css/print.css" rel="stylesheet">
   </head>
-
   <body>
     <header>
       <a href="/"><img src="img/profilepic.jpg"></a>
